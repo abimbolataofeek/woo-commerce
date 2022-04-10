@@ -1,0 +1,22 @@
+.eCommerce {
+    color: blue;
+}
+
+.your-text {
+    position: absolute;
+    width: 457px;
+    height: 140px;
+    left: 720px;
+    top: 992px;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    /* or 127% */
+
+    text-align: center;
+
+    color: #272D4E;
+}

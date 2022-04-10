@@ -1,0 +1,75 @@
+
+.hero-container{
+    display: flex;
+    width:100%;
+    padding:5em;
+
+    
+}
+.building-text{
+width: 818px;
+height: 285px;
+left: 220px;
+top: 270px;
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 85px;
+line-height: 95px;
+/* or 112% */
+color: #272D4E;
+text-align: left;
+}
+
+.featured-image img {
+  width:100%;
+  z-index: 99;
+}
+
+.hero-text {
+    width: 716px;
+    height: 50px;
+    left: 220px;
+    top: 584px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+    color: #94A2B3;
+    text-align: left;
+
+}
+
+.btn-txt-container{
+    text-align: left;
+}
+
+.hero-button {
+    width: 267px;
+    height: 72px;
+    left: 216px;
+    top: 665px;
+    background: #7854F7;
+    border-radius: 60px;
+}
+
+.btn-side-text{
+    width: 199px;
+    height: 25px;
+    left: 495px;
+    top: 689px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    
+    
+    color: #94A2B3;
+    
+
+}

@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+.container-style{
+  background:url('../src/assets/bg.png');
+  background-repeat: none;
+  background-size: contain;
+  background-position:top left;
+  width: 100%;
+  object-fit: cover;  
+}
 
 .App-logo {
   height: 40vmin;
