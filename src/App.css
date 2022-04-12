@@ -10,7 +10,15 @@
   object-fit: cover;  
 }
 
-.App-logo {
+.develop-sec{
+  background:url('../src/assets/develop-bg.png');
+  background-repeat: none;
+  background-size: contain;
+  background-position:top left;
+  width: 100%;
+  object-fit: cover;  
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -43,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

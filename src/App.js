@@ -12,11 +12,14 @@ function App() {
   return (
     <div className='App'>
       <div class="container-style">
-      <Navigation />
-      <Homepage />
+        <Navigation />
+        <Homepage />
       </div>
       <Commerce />
-      {/* <Develop /> */}
+      <div className='develop-sec'>
+        <Develop />
+      </div>
+
       {/* <Trusted /> */}
       {/* <Supported/> */}
       {/* <Footer /> */}

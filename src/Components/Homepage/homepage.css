@@ -53,6 +53,7 @@ text-align: left;
     top: 665px;
     background: #7854F7;
     border-radius: 60px;
+    color: white;
 }
 
 .btn-side-text{
@@ -67,9 +68,7 @@ text-align: left;
     font-size: 18px;
     line-height: 25px;
     /* identical to box height, or 139% */
-    
-    
     color: #94A2B3;
-    
+    float: right;
 
 }

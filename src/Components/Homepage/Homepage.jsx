@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { FiChevronRight } from 'react-icons/fi';
 import featured from '../../assets/featured.png';
 import vector from '../../assets/vector.png'
@@ -22,8 +22,8 @@ const Homepage = () => {
 
           <div className='btn-txt-container'>
             <button className='hero-button'>Start a New Store</button>
-            <div className='btn-side-text'>
-              <p>or <span>Customize & Extend<FiChevronRight /> </span></p>
+            <div >
+              <p className='btn-side-text'>or <span>Customize & Extend<FiChevronRight /> </span></p>
             </div>
           </div>
 
