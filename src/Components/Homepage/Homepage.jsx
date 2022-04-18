@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FiChevronRight } from 'react-icons/fi';
@@ -20,18 +19,26 @@ const Homepage = () => {
               Get started quickly and make your way.</p>
           </div>
 
-          <div className='btn-txt-container'>
-            <button className='hero-button'>Start a New Store</button>
-            <div >
-              <p className='btn-side-text'>or <span>Customize & Extend<FiChevronRight /> </span></p>
-            </div>
-          </div>
+          <Container>
+            <Row xs={2} md={4} lg={6}>
+              <Col><button className='hero-button'>Start a New Store</button></Col>
 
+              <div>
+              <Col> <p className='btn-side-text'>or <span className='text-span'>Customize & Extend<FiChevronRight /> </span></p></Col>
+
+              </div>
+            </Row>
+
+           
+
+          </Container>
 
         </div>
+
         <div className='featured-image'>
           <img src={featured} alt="featured-image" />
         </div>
+        
       </div>
 
 
@@ -39,4 +46,15 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Homepage;
+
+
+
+
+{/* <div className='btn-txt-container'>
+<button className='hero-button'>Start a New Store</button>
+<div >
+  <p className='btn-side-text'>or <span>Customize & Extend<FiChevronRight /> </span></p>
+</div>
+</div> */}
+

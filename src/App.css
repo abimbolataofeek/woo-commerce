@@ -3,20 +3,20 @@
 }
 .container-style{
   background:url('../src/assets/bg.png');
-  background-repeat: none;
+  /* background-repeat: none;
   background-size: contain;
   background-position:top left;
   width: 100%;
-  object-fit: cover;  
+  object-fit: cover;   */
 }
 
 .develop-sec{
   background:url('../src/assets/develop-bg.png');
-  background-repeat: none;
+  /* background-repeat: none;
   background-size: contain;
   background-position:top left;
   width: 100%;
-  object-fit: cover;  
+  object-fit: cover;   */
 }
 /* .App-logo {
   height: 40vmin;

@@ -9,43 +9,50 @@ import frame3 from '../../assets/frame3.png';
 const Commerce = () => {
   return (
     <div >
-      <Container>
+      <Container className='commerce-container'>
         <div>
-          <p>Your eCommerce
-            made simple</p>
+          <p className='eCommerce'>Your eCommerce made simple</p>
         </div>
 
         <div>
           <Row>
-            <Col sm> <div>
-              <img src={frame1} alt="featured-image" />
-
+            <Col sm className='col-div-container'>
               <div>
-                <p>All You Need to Start</p>
-                <p>Add WooCommerce plugin to any WordPress site and set up a new store in minutes.</p>
-                <a href="#">Ecommerce for Wordpress<FiChevronRight /></a >
+                <img className='col-img' src={frame1} alt="featured-image" />
+
+                <div>
+                  <p className='col-header-text'>All You Need to Start</p>
+                  <p className='col-p-text'>Add WooCommerce plugin to any WordPress site and set up a new store in minutes.</p>
+                  <a className='col-a-link' href="#">Ecommerce for Wordpress<FiChevronRight /></a >
+                </div>
+
               </div>
+            </Col>
 
-            </div></Col>
-
-            <Col sm> <div>
-              <img src={frame2} alt="featured-image" />
+            <Col sm className='col-div-container'>
               <div>
-                <p>Customize and Extend</p>
-                <p>From subscriptions to gym classes to luxury cars, WooCommerce is fully customizable.</p>
-                <a href="#">Browse Extentions<FiChevronRight /></a >
-              </div>
+                <img className='col-img' src={frame2} alt="featured-image" />
+                <div>
+                  <p className='col-header-text'>Customize and Extend</p>
+                  <p className='col-p-text'>From subscriptions to gym classes to luxury cars, WooCommerce is fully customizable.</p>
+                  <a className='col-a-link' href="#">Browse Extentions<FiChevronRight /></a >
+                </div>
 
-            </div></Col>
-            <Col sm> <div>
-              <img src={frame3} alt="featured-image" />
+              </div>
+            </Col>
+
+
+            <Col sm className='col-div-container' >
               <div>
-                <p>Active Community</p>
-                <p>WooCommerce is one of the fastest-growing eCommerce Communities.</p>
-                <a href="#">Check or Forums<FiChevronRight /></a >
-              </div>
+                <img className='col-img' src={frame3} alt="featured-image" />
+                <div>
+                  <p className='col-header-text'>Active Community</p>
+                  <p className='col-p-text'>WooCommerce is one of the fastest-growing eCommerce Communities.</p>
+                  <a className='col-a-link' href="#">Check or Forums<FiChevronRight /></a >
+                </div>
 
-            </div></Col>
+              </div>
+            </Col>
           </Row>
         </div>
 

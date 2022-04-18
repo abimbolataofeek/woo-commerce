@@ -47,20 +47,22 @@ text-align: left;
 }
 
 .hero-button {
-    width: 267px;
+    width: 260px;
     height: 72px;
     left: 216px;
     top: 665px;
     background: #7854F7;
-    border-radius: 60px;
+    border-color: #7854F7;
+    border-radius: 70px;
     color: white;
 }
 
 .btn-side-text{
     width: 199px;
     height: 25px;
-    left: 495px;
+    margin-right: -250px;
     top: 689px;
+    float: right;   
     
     font-family: 'Roboto';
     font-style: normal;
@@ -69,6 +71,10 @@ text-align: left;
     line-height: 25px;
     /* identical to box height, or 139% */
     color: #94A2B3;
-    float: right;
+    margin-top: 20px;
 
+}
+
+.text-span{
+    color: #299EF3;
 }

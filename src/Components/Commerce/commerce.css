@@ -1,22 +1,86 @@
-.eCommerce {
-    color: blue;
+.commerce-container {
+
+    position: absolute;
+    width: 1601px;
+    height: 600px;
+    left: 114px;
+    top: 800px;
 }
 
-.your-text {
-    position: absolute;
+.eCommerce {
     width: 457px;
-    height: 140px;
-    left: 720px;
-    top: 992px;
-
+    height: 150px;
+    text-align: center;
+    left: 550px;
+    top: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #272D4E;
     font-family: 'Circular Std';
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
     line-height: 70px;
-    /* or 127% */
+}
 
-    text-align: center;
+.col-div-container {
+    width: 357px;
+    height: 100px;
+    left: 550px;
+    top: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
 
+.col-img {
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.col-header-text {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 50px;
+    /* identical to box height, or 194% */
     color: #272D4E;
+}
+
+.col-p-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 60px;
+    left: 220px;
+    top: 1621px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-justify: initial;
+    line-height: 30px;
+    /* or 167% */
+    color: #94A2B3;
+    text-align: justify;
+}
+
+
+.col-a-link {
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: #299EF3;
+    margin-left: auto;
+    margin-right: auto;
 }
