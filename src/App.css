@@ -18,6 +18,19 @@
   width: 100%;
   object-fit: cover;   */
 }
+
+.trusted-sec{
+  background:url('../src/assets/trusted-bg.png');
+  background-size: cover;
+  width: 90%;
+  height: 100%;
+  border: 2px solid;
+  color: pink;
+  margin-left: auto;
+    margin-right: auto;
+
+  
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

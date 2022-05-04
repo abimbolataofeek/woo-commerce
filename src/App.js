@@ -7,7 +7,7 @@ import Supported from './Components/Supported/Supported';
 import Footer from './Components/Footer/Footer';
 import './App.css';
 
- 
+
 function App() {
   return (
     <div className='App'>
@@ -20,7 +20,10 @@ function App() {
         <Develop />
       </div>
 
-      {/* <Trusted /> */}
+      <div className='trusted-sec'>
+        <Trusted />
+      </div>
+
       {/* <Supported/> */}
       {/* <Footer /> */}
     </div>

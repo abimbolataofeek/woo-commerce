@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Button } from 'bootstrap';
 import { Col, Container, Row } from 'react-bootstrap'
 import frame4 from '../../assets/frame4.png'
 import frame5 from '../../assets/frame5.png'
@@ -15,27 +16,29 @@ const Develop = () => {
             </Col>
 
             <Col sm>
-              <p>Develop Without Limits</p>
-              <p>WooCommerce is developer friendly, too. Built with a REST API,
+              <p className='col1-header-text'>Develop Without Limits</p>
+              <p className='col1-p-text'>WooCommerce is developer friendly, too. Built with a REST API,
                 WooCommerce is scalable and can integrate with virtually any service.
                 Design a complex store from scratch, extend a store for a client, or simply add
                 a single product to a WordPress site your store, your way.</p>
-              <button>Read the Documentation</button>
+              <button className='buttons-container'>Read the Documentation</button>
+              
             </Col>
 
           </Row>
         </div>
 
-        <div>
+        <div className='col2-container'>
           <Row>
 
-            <Col sm>
-              <p>Know our Global Community</p>
-              <p>WooCommerce is one of the fastest-growing eCommerce communities.
+            <Col sm >
+              <p className='col2-header-text'>Know our Global Community</p>
+
+              <p className='col2-p-text'>WooCommerce is one of the fastest-growing eCommerce communities.
                 We’re proud that the helpfulness of the community and a wealth of
                 online resources are frequently cited as reasons our users love it.
                 There are 80+ meetups worldwide!</p>
-              <button>Read the Documentation</button>
+              <button className='buttons-container'>Read the Documentation</button>
             </Col>
             <Col sm>
               <img className='img2-container' src={frame5} alt="featured-image" />
